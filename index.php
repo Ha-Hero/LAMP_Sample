@@ -46,6 +46,14 @@ try {
     </div>
 
     <div class="container">
+        <?php if($_GET['fg'] == 1){?>
+            <p>seikoku</p>
+        <?php }elseif($_GET['fg'] == 2){?>
+            <p>sippai</p>
+        <?php }?>
+    </div>
+
+    <div class="container">
         <ul class="nav nav-tabs">
          <li class="nav-items"><a href="#tab1" class ="nav-link" data-toggle="tab">select</a></li>
          <li class="nav-items"><a href="#tab2" class ="nav-link" data-toggle="tab">insert</a></li>
