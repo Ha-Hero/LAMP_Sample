@@ -136,10 +136,8 @@ try {
             </div>
             </div>
 
-            <div class="tab-content">
-            <div id="tab4" class="tab-pane active">
-                <table class="table table-striped table-bordered mt-2">
-                    <caption>Show User Table</caption>
+            <div id="tab4" class="tab-pane">
+                <table class="table table-hover mt-2">
                     <thead class="thead-dark">
                         <tr>
                             <th>Id</th>
@@ -148,26 +146,23 @@ try {
                             <th>-</th>
                         </tr>
                     </thead>
-
                     <tbody>
-                        <?php foreach($del_list as $value) {?>
-                        <tr>
-                            <th><?php echo "$value[id]" ?></th>
-                            <td><?php echo "$value[name]" ?></td>
-                            <td><?php echo "$value[age]" ?></td>
-                            <td>
-                                <form action="./delete_demo.php" method="$_GET">
-                                    <input type="text" values="<?php echo "$value[id]" ?>" class="d-none" name="id">
-                                    <button type="submit" class="btn btn-denger">delete</button>
-                                </form>
-                            </td>
-                        </tr>
+                        <?php foreach ($del_list as $value) { ?>
+                            <tr>
+                                <th><?php echo "$value[id]" ?></th>
+                                <td><?php echo "$value[name]" ?></td>
+                                <td><?php echo "$value[age]" ?></td>
+                                <td>
+                                    <form action="./delete.php" method="$_GET">
+                                        <input type="text" class="d-none" name="id" value="<?php echo "$value[id]" ?>">
+                                        <button type="submit" class="btn btn-danger">delete</button>
+                                    </form>
+                                </td>
+                            </tr>
                         <?php } ?>
                     </tbody>
-
-                </table>    
+                </table>
             </div>
-
             </div>
         </div>
     </div>
