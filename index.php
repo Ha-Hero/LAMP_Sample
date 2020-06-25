@@ -47,9 +47,19 @@ try {
 
     <div class="container">
         <?php if($_GET['fg'] == 1){?>
-            <p>seikoku</p>
+            <<div class="alert alert-success alert-dismissible fade show" role="alert">
+               Processing is cocmplete <strong>success</strong>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                 </button>
+            </div>
         <?php }elseif($_GET['fg'] == 2){?>
-            <p>sippai</p>
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            Processing is cocmplete <strong>Failed</strong>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+            </div>
         <?php }?>
     </div>
 
