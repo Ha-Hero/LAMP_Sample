@@ -106,7 +106,36 @@ try {
             </div>
 
             
-            <div id="tab3" class="tab-pane">sample3</div>
+            <div id="tab3" class="tab-pane">
+                <form action="./update.php" class="mt-5" method="POST">
+
+                    <div class="form-group row">
+                        <label for="id" class="col-sm-2 col-form-label">ID</label>
+                        <div class="col-sm-10" >
+                            <input class="form-control" type="text" name="id" id="id">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="name" class="col-sm-2 col-form-label">NAME</label> 
+                        <div class="col-sm-10" >
+                            <input class="form-control" type="text" name="name" id="name">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="age" class="col-sm-2 col-form-label">AGE</label> 
+                        <div class="col-sm-10" >
+                            <input class="form-control" type="text" name="age" id="age">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">update</button>
+                </form>    
+            </div>
+            </div>
+
+
             <div id="tab4" class="tab-pane">sample4</div>
         </div>
     </div>
