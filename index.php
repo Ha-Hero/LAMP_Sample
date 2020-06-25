@@ -156,7 +156,7 @@ try {
                             <td><?php echo "$value[name]" ?></td>
                             <td><?php echo "$value[age]" ?></td>
                             <td>
-                                <form action="./delete.php" method="$_GET">
+                                <form action="./delete_demo.php" method="$_GET">
                                     <input type="text" values="<?php echo "$value[id]" ?>" class="d-none" name="id">
                                     <button type="submit" class="btn btn-denger">delete</button>
                                 </form>
