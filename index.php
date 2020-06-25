@@ -95,7 +95,7 @@ try {
 
                 </table>    
             </div>
-
+        </div>
             <div id="tab2" class="tab-pane">
                 <form action="./insert.php" class="mt-5" method="POST">
 
@@ -152,7 +152,6 @@ try {
                     <button type="submit" class="btn btn-primary">update</button>
                 </form>    
             </div>
-            </div>
 
             <div id="tab4" class="tab-pane">
                 <table class="table table-hover mt-2">
@@ -181,8 +180,7 @@ try {
                     </tbody>
                 </table>
             </div>
-            </div>
-        </div>
+           
     </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
