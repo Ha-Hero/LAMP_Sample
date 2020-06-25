@@ -47,7 +47,7 @@ try {
 
     <div class="container">
         <?php if($_GET['fg'] == 1){?>
-            <<div class="alert alert-success alert-dismissible fade show" role="alert">
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
                Processing is cocmplete <strong>success</strong>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
