@@ -136,10 +136,8 @@ try {
             </div>
             </div>
 
-
-            <div id="tab4" class="tab-pane">
             <div class="tab-content">
-            <div id="tab1" class="tab-pane active">
+            <div id="tab4" class="tab-pane active">
                 <table class="table table-striped table-bordered mt-2">
                     <caption>Show User Table</caption>
                     <thead class="thead-dark">
